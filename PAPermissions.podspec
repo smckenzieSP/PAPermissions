@@ -5,9 +5,9 @@ Pod::Spec.new do |s|
   s.homepage         = "https://github.com/pascalbros/PAPermissions"
   s.license          = 'MIT'
   s.author           = { "Pasquale Ambrosini" => "pasquale.ambrosini@gmail.com" }
-  s.source           = { :git => "https://github.com/pascalbros/PAPermissions.git", :tag => "#{s.version}" }
+  s.source           = { :git => "https://github.com/smckenzieSP/PAPermissions.git", :tag => "#{s.version}" }
   s.social_media_url = 'https://twitter.com/PascalAmbro'
-  s.platform         = :ios, '10.0'
+  s.platform         = :ios, '12.0'
   s.requires_arc     = true
   s.swift_version    = '5.0'
   s.source_files     = 'PAPermissions/Classes/**/*.{swift}'
